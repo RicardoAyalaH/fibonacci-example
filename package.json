@@ -1,0 +1,26 @@
+{
+  "name": "fibonacci",
+  "version": "1.0.0",
+  "description": "REST API made for the purpose of obtaining the nth element of the fibonacci sequence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RicardoAyalaH"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Ricardo Ayala",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
